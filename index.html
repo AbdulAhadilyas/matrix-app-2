@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <title>Document</title>
+</head>
+<body>
+  <h1>MATRIX APP</h1>
+  
+
+    <form onsubmit="start();return false">
+    <input type="number" id="userinput1" min="1" max="8" required class="input"> <span>x</span>
+    <input type="number" id="userinput2" min="1" max="8" required class="input" >
+    <button type="submit">make box</button>
+    </form>
+    
+    <form action="" class="form2" onsubmit="sum() ; return false" >
+      <div class="con">
+            <div class="mat">
+          <div id="box1" class="matrix"></div>
+        </div>
+        <div class="mat">
+          <div id="box2" class="matrix"></div>
+        </div>
+        <div class="mat">
+          <div id="box3" class="matrix"></div>
+        </div>
+      </div>
+      <button type="submit" class="button">submit</button>
+        </form>
+  <script src="./app.js"></script>
+</body>
+</html>
